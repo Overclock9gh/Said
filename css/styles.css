@@ -10,6 +10,7 @@ h1 {
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
+  font-weight: bold;;
 }
 
 h2 {
@@ -47,10 +48,48 @@ a:hover{
   color: #EAF6F6;
 }
 
+#title {
+  background-color: #E4F9F5;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.container-fluid {
+  padding: 1.5% 15%;
+}
+
 .top-container {
   background-color: #E4F9F5;
   position: relative;
-  padding-top: 9.375rem;
+  padding-top: 0.01rem;
+}
+
+.top-cloud {
+  width: 5rem;
+  position: absolute;
+  right: 250px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  width: 5rem;
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+.avatar {
+  width: 5rem;
+}
+
+.laptop {
+  width: 32rem;
 }
 
 .middle-container {
@@ -63,6 +102,12 @@ a:hover{
 }
 
 .skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.skill-row-2 {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
@@ -84,32 +129,18 @@ a:hover{
   padding: 20px 0;
 }
 
-.algorithm {
-  width: 5rem;
-  position: absolute;
-  right: 300px;
-  top: 40px;
-}
-
-.circuit {
-  width: 5rem;
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
-}
-
 .man-img {
-  width: 9%;
+  width: 12rem;
 }
 
 .code-img {
-  width: 25%;
+  width: 15rem;
   float: left;
   margin-right: 30px;
 }
 
 .safety-img {
-  width: 25%;
+  width: 15rem;
   float: right;
   margin-left: 30px;
 }
