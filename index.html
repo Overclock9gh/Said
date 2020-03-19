@@ -4,60 +4,97 @@
 <head>
   <meta charset="utf-8">
   <title>Saïd Hamdane</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="icon" href="images/man.png">
+
+  <!-- Google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/avatar.svg">
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div class="top-container">
-    <img class="circuit" src="images/circuit.png" alt="circuit-img">
-    <h1>I'm Saïd.</h1>
-    <h2>a computer science student.</h2>
-    <img class="algorithm" src="images/algorithm.png" alt="algorithm-img">
-    <img src="images/laptop.png" alt="laptop-img">
-  </div>
-  <div class="middle-container">
-    <div class="profile">
-      <img class="man-img" src="images/man.png" alt="">
-      <h2>Hello.</h2>
-      <p class="intro">I am a passionate network and security student who instinctively seeks knowledge and experiences.</p>
-    </div>
-    <hr>
-    <div class="skills">
-      <h2>My Skills.</h2>
-      <div class="skill-row">
-        <img class="code-img" src="images/code.png" alt="">
-        <h3>Programming</h3>
-        <p>I program several times in my spare time. I use my knowledge in WEB development for Apache server configurations.
-           The programming languages ​​I use are focused on scripting & configuration like python & perl. I try to improve in
-           several categories to finally become a full stack developer.</p>
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="">
+          <img class="avatar" src="images/avatar.svg" alt="avatar-img">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Comments</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="top-container">
+        <img class="top-cloud" src="images/cloud.svg" alt="cloud-img">
+        <h1>I'm Saïd.</h1>
+        <h2>a computer science student.</h2>
+        <img class="bottom-cloud" src="images/cloud.svg" alt="cloud-img">
+        <img class="laptop" src="images/laptop.svg" alt="laptop-img">
       </div>
-      <div class="skill-row">
-        <img class="safety-img" src="images/safety.png" alt="">
-        <h3>Hacking</h3>
-        <p>I often work on improving my attributes to become an ethical hacker. My knowledge in networks & virtualization is deepened.
-           I focus on penetration testing and search of vulnerabilities. My knowledge of scripting gives me an advantage when creating
-           viruses.</p>
+    </div>
+    <div class="middle-container">
+      <div class="profile">
+        <img class="man-img" src="images/man.svg" alt="">
+        <h2>Hello.</h2>
+        <p class="intro">I am a passionate network and security student who instinctively seeks knowledge and experiences.</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="code-img" src="images/code.svg" alt="">
+          <h3>Programming</h3>
+          <p>I program several times in my spare time. I use my knowledge in WEB development for Apache server configurations.
+            The programming languages ​​I use are focused on scripting & configuration like python & perl. I try to improve in
+            several categories to finally become a full stack developer.</p>
+        </div>
+        <div class="skill-row-2">
+          <img class="safety-img" src="images/safety.svg" alt="">
+          <h3>Hacking</h3>
+          <p>I often work on improving my attributes to become an ethical hacker. My knowledge in networks & virtualization is deepened.
+            I focus on penetration testing and search of vulnerabilities. My knowledge of scripting gives me an advantage when creating
+            viruses.</p>
+        </div>
+      </div>
+      <hr>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>For some help & coworking.</h3>
+        <p>Listening for new projects.</p>
+        <a class="btn" href="mailto:overclock9gh@gmail.com">CONTACT ME</a>
       </div>
     </div>
-    <hr>
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>For some help & coworking.</h3>
-      <p>Listening for new projects.</p>
-      <a class="btn" href="mailto:overclock9gh@gmail.com">CONTACT ME</a>
-    </div>
-  </div>
 
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-    <a class="footer-link" href="https://twitter.com/">Twitter</a>
-    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-    <p class="copyright">© 2018 Saïd Hamdane @My personal website.</p>
-    <div>Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-  </div>
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p class="copyright">© 2020 Saïd Hamdane @Said</p>
+      <div>Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </div>
 
 </body>
 
