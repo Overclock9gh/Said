@@ -210,23 +210,11 @@ a:hover {
   margin-right: 30px;
 }
 
-.languages-title {
-  font-family: 'Lilita One';
-  font-size: 1.5rem;
-}
-
-.languages-paragraphe {
-  color: #8f8f8f;
-}
-
 /* Features Section */
 
-#language-features {
-  padding: 2% 15% 0;
-}
-
-#software-features {
-  padding: 2% 15%;
+.language-container {
+  background-color: #66BFBF;
+  padding: 3.5% 0 3.5% 0;
 }
 
 .feature-box {
@@ -234,8 +222,32 @@ a:hover {
   padding: 5%;
 }
 
-.icon-website {
+.language-title-h2 {
+  color: #fff;
+}
+
+.language-title-h3 {
+  font-family: 'Lilita One';
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+#language-features {
+  padding: 2% 15% 0;
+}
+
+.software-title-h3 {
+  font-family: 'Lilita One';
+  font-size: 1.5rem;
   color: #66BFBF;
+}
+
+#software-features {
+  padding: 2% 15%;
+}
+
+.icon-website {
+  color: #fff;
   margin-bottom: 1rem;
 }
 
