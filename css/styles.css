@@ -55,8 +55,13 @@ a:hover {
   background-color: #E4F9F5;
 }
 
-.avatar {
-  width: 5rem;
+.linkedin {
+  color: #66BFBF;
+  width: 8rem;
+}
+
+.linkedin:hover {
+  color: #30e3cb;
 }
 
 .navbar {
@@ -110,7 +115,7 @@ a:hover {
   transition: ease all 1s;
 }
 
-@media (max-width: 1450px) {
+@media (max-width: 1650px) {
 
   .name {
     font-size: 4rem;
@@ -118,14 +123,42 @@ a:hover {
   }
 
   .top-cloud {
-    right: 20px;
-    top: 20px;
+    right: 150px;
+    top: 35px;
     transition: ease all 1s;
   }
 
   .bottom-cloud {
+    left: 150px;
+    bottom: 250px;
+    transition: ease all 1s;
+  }
+
+  .laptop {
+    width: 25rem;
+    transition: ease all 1s;
+  }
+
+}
+
+@media (max-width: 1250px) {
+
+  .name {
+    font-size: 4rem;
+    transition: ease all 1s;
+  }
+
+  .top-cloud {
+    width: 3.75rem;
+    right: 20px;
+    top: 205px;
+    transition: ease all 1s;
+  }
+
+  .bottom-cloud {
+    width: 3.75rem;
     left: 20px;
-    bottom: 200px;
+    bottom: 420px;
     transition: ease all 1s;
   }
 
@@ -146,14 +179,14 @@ a:hover {
   .top-cloud {
     width: 3.5rem;
     right: -20px;
-    top: 20px;
+    top: 235px;
     transition: ease all 1s;
   }
 
   .bottom-cloud {
     width: 3.5rem;
     left: -20px;
-    bottom: 200px;
+    bottom: 400px;
     transition: ease all 1s;
   }
 
@@ -188,8 +221,9 @@ a:hover {
   text-align: left;
 }
 
-.man-img {
+.said-img {
   width: 12rem;
+  border-radius: 100% 100%;
 }
 
 .code-img {
