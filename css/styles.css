@@ -334,6 +334,10 @@ a:hover {
   padding: 7% 15%;
 }
 
+.contact-me {
+  margin: 100px;
+}
+
 .contact-message {
   width: 40%;
   margin: 40px auto 60px;
